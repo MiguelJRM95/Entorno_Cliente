@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        tr>td:first-child{
+            background-color: lawngreen;
+        }
+        tr>td:last-child{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="GET">
+        <table align="center">
+            <thead style="background-color: blueviolet;">
+                <th colspan="2"><p>Por favor, rellena estos datos</p></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Direccion</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Codigo Postal</td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Incluir Foto</td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Marca tu equipo</td>
+                    <td>
+                        <input type="radio" name="" id="" checked>Madrid
+                        <input type="radio" name="" id="">Barcelona
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marca tu musica favorita</td>
+                    <td>
+                        <input type="checkbox" name="" id="" checked>Rock
+                        <input type="checkbox" name="" id="" checked>Pop
+                        <input type="checkbox" name="" id="">Heavy
+                        <input type="checkbox" name="" id="">Tecno
+                    </td>
+                </tr>
+                <tr>
+                    <td>Elige un escritos</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Cervantes</option>
+                            <option value="">Gongora</option>
+                            <option value="">Kafka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Algun Comentario</td>
+                    <td>
+                        <textarea name="" id="" cols="20" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Enviar</button></td>
+                    <td><button type="reset">Limpiar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

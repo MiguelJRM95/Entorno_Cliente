@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Table borders</title>
+    <style>
+        body{
+            margin: 0 auto;
+            width: 500px;
+        }
+        body>div{
+            padding: 1em;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1em 1em;
+        }
+        #container1 {
+            border: 7px inset slategray;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        #container2 {
+            border: 7px outset slategray;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        #container3 {
+            border: 7px double blue;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        #container4 {
+            border: 6px groove cornflowerblue;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        #container5 {
+            border: 6px ridge red;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        #container6 {
+            border: 7px solid olivedrab;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div id="container1">1</div>
+        <div id="container2">2</div>
+        <div id="container3">3</div>
+    </div>
+    <div>
+        <div id="container4">4</div>
+        <div id="container5">5</div>
+        <div id="container6">6</div>
+    </div>
+</body>
+</html>

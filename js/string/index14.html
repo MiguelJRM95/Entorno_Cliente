@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diccionario</title>
+    <script>
+        let text = window.prompt("Introduce texto");
+        let counter = str => {
+            return str.split('').reduce((total, letter) => {
+                total[letter] ? total[letter]++ : total[letter] = 1;
+                return total;
+            }, {});
+        };
+        let result = counter(text);
+    </script>
+</head>
+
+<body>
+    <h1 id="title"></h1>
+    <p id="stadistics"></p>
+    <script>
+        document.getElementById('title').innerText = `La estadistica para la cadena ${text} es:`;
+        let myP = document.getElementById('stadistics');
+        for (var [key, value] of Object.entries(result)) {
+            let letter= key.toUpperCase();
+            myP.innerText+=`${letter}: ${value}\n`;
+        }
+    </script>
+</body>
+</html>

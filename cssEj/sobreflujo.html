@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobreflujo</title>
+    <style>
+        #container{
+            margin: 0 auto;
+            padding: 1em;
+            width: 40vw;
+            display: flex;
+            gap: 4em auto;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        div>div{
+            width: 7em;
+            height: 7em;
+        }
+        #textVisible{
+            margin-bottom: 35em;
+        }
+        #textNotVisible{
+            overflow: hidden;
+        }
+        #vertScroll{
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        #horVertScroll{
+            width: 5em;
+            overflow: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="textVisible">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dignissimos deleniti eum, voluptatem
+                debitis amet, velit maiores eius commodi, sapiente aspernatur qui eos! Velit libero consequatur sunt,
+                laboriosam est quo.
+                Sint veniam maxime libero expedita voluptate officia dicta repellendus possimus modi cupiditate quos
+                fuga pariatur maiores minima voluptas quam, molestiae inventore architecto tenetur, aliquid aliquam
+                facilis fugiat! Illum, doloribus voluptatem!</p>
+        </div>
+        <div id="textNotVisible">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dignissimos deleniti eum, voluptatem
+                debitis amet, velit maiores eius commodi, sapiente aspernatur qui eos! Velit libero consequatur sunt,
+                laboriosam est quo.
+                Sint veniam maxime libero expedita voluptate officia dicta repellendus possimus modi cupiditate quos
+                fuga pariatur maiores minima voluptas quam, molestiae inventore architecto tenetur, aliquid aliquam
+                facilis fugiat! Illum, doloribus voluptatem!</p>
+        </div>
+        <div id="vertScroll">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dignissimos deleniti eum, voluptatem
+                debitis amet, velit maiores eius commodi, sapiente aspernatur qui eos! Velit libero consequatur sunt,
+                laboriosam est quo.
+                Sint veniam maxime libero expedita voluptate officia dicta repellendus possimus modi cupiditate quos
+                fuga pariatur maiores minima voluptas quam, molestiae inventore architecto tenetur, aliquid aliquam
+                facilis fugiat! Illum, doloribus voluptatem!</p>
+        </div>
+        <div id="horVertScroll">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores dignissimos deleniti eum, voluptatem
+                debitis amet, velit maiores eius commodi, sapiente aspernatur qui eos! Velit libero consequatur sunt,
+                laboriosam est quo.
+                Sint veniam maxime libero expedita voluptate officia dicta repellendus possimus modi cupiditate quos
+                fuga pariatur maiores minima voluptas quam, molestiae inventore architecto tenetur, aliquid aliquam
+                facilis fugiat! Illum, doloribus voluptatem!</p>
+        </div>
+    </div>
+</body>
+
+</html>
